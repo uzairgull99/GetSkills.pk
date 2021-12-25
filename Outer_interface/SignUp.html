@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="/style/SignUp.css" />
+    <title>Learn Freelance Online-</title>
+</head>
+
+<body>
+    <div class="top-1"> <a href="/Home_main.html"> <img class="img-1" src="img/GetSkills.png" /></a>
+
+        <div class="top-2">
+            <h1 class="get"><a href="/Home_main.html"><span class="get">Get</span><span class="skill">Skills</span><span
+                        class="pk">.pk</span></a> </h1>
+        </div>
+    </div>
+    <div class="nav-tag">
+        <a class="link-1" href="/Home_main.html">Home</a>
+        <a class="link-2" href="./FAQs.html">FAQs</a>
+        <a class="link-3" href="./ContactUs.html">Contact Us</a>
+        <a class="link-4" href="./Sign_In.html">Sign in</a>
+        <a class="link-5" href="./SignUp.html">Sign up</a>
+    </div>
+
+    <div class="bottom-header">
+        <h2> Trainee Sign up</h2>
+        <p>Earn with Get<span>Skills</span> Training Program</p>
+    </div>
+
+    <h3 class="heading"> Join Now for Free</h3>
+
+
+    <div class="inputs">
+        <form onsubmit="return false">
+
+            <label for="name"> First Name</label>
+            <input type="text" name="firstname" placeholder="please enter your first name" required minlength="4"
+                maxlength="8" />
+
+            <label for="name"> Last Name</label>
+            <input type="text" name="lastname" placeholder="please enter your last name" minlength="4" maxlength="8"
+                required />
+
+            <label for="course" class="select_course"> Chooose your courses: </label>
+            <select name="select_course" required>
+                <!-- <div class="course-option"> -->
+                <option>Freelancing </option>
+                <option>Creative Writing </option>
+                <option>Graphic design </option>
+                <option>WordPress </option>
+                <!-- </div> -->
+            </select>
+
+            <label for="name"> Email Address</label>
+            <input class="getemail" id="emailSignUp" type="email" name="email"
+                placeholder="please enter valid email address" maxlength="30" required />
+
+
+
+            <label for="name"> Password</label>
+            <input type="password" id="passwordSignUp" name="password" placeholder="please enter valid password"
+                minlength="7" maxlength="16" required />
+
+            <p class="condition">7-16 characters</p>
+
+            <!-- <button type="submit" value="submit" href="/Inner_Interface/LMSHome.html" class="btn"> -->
+            <!-- <input type="submit" value="submit" href="/Inner_Interface/LMSHome.html"> -->
+            <button onclick="signUp()" class="signup-btn">
+                Submit</button>
+
+
+
+            <p>Already have an account? <a href="./Sign_In.html"> sign in</a> </p>
+
+        </form>
+        <!-- <button onclick="fun()">get val </button> -->
+
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="like-footer">
+
+        <h1 class="get"><a href="/Home_main.html"><span class="get">Get</span><span class="skill">Skills</span><span
+                    class="pk">.pk</span></a> </h1>
+
+        <div class="contact">
+
+            <h3>Contact GetSkills</h3>
+            <div class="number">
+                <svg class="icon-1" viewBox="0 0 20 20">
+                    <path
+                        d="M17.659,3.681H8.468c-0.211,0-0.383,0.172-0.383,0.383v2.681H2.341c-0.21,0-0.383,0.172-0.383,0.383v6.126c0,0.211,0.172,0.383,0.383,0.383h1.532v2.298c0,0.566,0.554,0.368,0.653,0.27l2.569-2.567h4.437c0.21,0,0.383-0.172,0.383-0.383v-2.681h1.013l2.546,2.567c0.242,0.249,0.652,0.065,0.652-0.27v-2.298h1.533c0.211,0,0.383-0.172,0.383-0.382V4.063C18.042,3.853,17.87,3.681,17.659,3.681 M11.148,12.87H6.937c-0.102,0-0.199,0.04-0.27,0.113l-2.028,2.025v-1.756c0-0.211-0.172-0.383-0.383-0.383H2.724V7.51h5.361v2.68c0,0.21,0.172,0.382,0.383,0.382h2.68V12.87z M17.276,9.807h-1.533c-0.211,0-0.383,0.172-0.383,0.383v1.755L13.356,9.92c-0.07-0.073-0.169-0.113-0.27-0.113H8.851v-5.36h8.425V9.807z">
+                    </path>
+                </svg>
+                <p> 0317-4567046</p>
+            </div>
+            <div class="mail">
+                <svg class="icon-1" viewBox="0 0 20 20">
+                    <path
+                        d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z">
+                    </path>
+                </svg>
+                <p> info.getSKills@gmail.com</p>
+            </div>
+
+        </div>
+
+        <div class="useful">
+
+            <h3>Useful Links</h3>
+            <div class="first-2">
+                <a href="/Home_main.html">
+                    <p> courses</p>
+                </a>
+                <a href="/Home_main.html">
+                    <p> News & events</p>
+                </a>
+            </div>
+
+            <div class="second-2">
+                <a href="/Outer_interface/ContactUs.html">
+                    <p> Contact</p>
+                </a>
+                <a href="/Outer_interface/Admin_sign.html">
+                    <p> Sign in as Admin</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <p class="rights">&copy Copyright 2021-GetSkills.pk-All Rights Reserved </p>
+
+    </footer>
+
+
+
+
+    <script src="/scripts/script.js"> </script>
+
+
+</body>
+
+</html>

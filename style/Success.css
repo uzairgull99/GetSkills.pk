@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background-color: #f1f3f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: black; */
+}
+
+/* Success page */
+
+.box{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:60px;
+    background-color: white;
+    max-width:500px;
+    border-radius: 10px; 
+    }
+
+.box h1,p{
+    color:#12b886;
+}
+.box p{
+    margin-top:20px;
+    font-size: 20px;
+    color:#12b886;
+    font-weight: 600;
+}
+.box p:last-child{
+    font-size: 30px;
+    margin-bottom:10px;
+}
+
+/* ------------------For signed in success-------------------- */
+.welcome{
+    font-size:60px;
+    color:#e03131 !important;
+}
+.box-1{
+   max-width:900px !important;
+}
+.box-1 span{
+    color:#e67700;
+}
+
+h2{
+    margin-top:10px;
+    font-size: 23px;
+    color:#495057 ;
+}
+
+button{
+    border:none;
+    padding:10px;
+    font-size: 18px;
+    background-color:#e67700;
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+    border-radius:2px ;
+}
+button:hover{
+    background-color: #f08c00;
+    cursor: pointer;
+}
+
+
+
+
+
+footer{
+    background-color: white;
+    color:#495057;
+    font-size: 14px;
+    margin-top:212px;
+    /* margin-left:70px; */
+    padding-left:20px;
+    padding-top:25px;
+    padding-bottom: 10px;
+    /* transition:margin 0.5s ease-in-out; */
+}
